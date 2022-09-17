@@ -1,0 +1,33 @@
+{
+  "name": "shepa",
+  "version": "0.6.0",
+  "description": "Shepa is a online payment gateway",
+  "main": "dist/Shepa.js",
+  "types": "dist/Shepa.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "prestart": "tsc index.ts --outDir .dist",
+    "start": "node .dist/index.js",
+    "build": "tsc --module CommonJS --outDir dist"
+  },
+  "keywords": [
+    "online-payment",
+    "online-payment-gateway",
+    "shepa"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/treegex/shepa.git"
+  },
+  "author": "Ali Azmoodeh <treeroot.ir@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/treegex/shepa/issues"
+  },
+  "homepage": "https://github.com/treegex/shepa#readme",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
+}
