@@ -74,4 +74,4 @@ shepa.send(apiKey, token, amount);
 
 ## ChangeLog
 
-[Change Log](https://github.com/treegex/shepa/blob/main/CHANGELOG.md)
+[Change Log](https://github.com/treegex/shepa/blob/master/CHANGELOG.md)
